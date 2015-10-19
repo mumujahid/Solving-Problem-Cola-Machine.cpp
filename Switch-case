@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int beverages;
+    cout<<"Beverages\n\n";
+    cout<<"1."<<"\t"<<"Cola\n";
+    cout<<"2."<<"\t"<<"Tea\n";
+    cout<<"3."<<"\t"<<"Coffee\n";
+    cout<<"4."<<"\t"<<"Lemon\n";
+    cout<<"5."<<"\t"<<"Orange juice\n";
+    cout<<"Choose your favorite beverage: ";
+    cin>>beverages;
+    cout<<endl;
+  switch(beverages)
+  {
+      case 1:cout<<"Cola\n";break;
+      case 2:cout<<"Tea\n";break;
+      case 3:cout<<"Coffee\n";break;
+      case 4:cout<<"Lemon\n";break;
+      case 5:cout<<"Orange juice\n";break;
+      default:cout<<"Error.choice was not valid, here is your money back.\n";break;
+      }
+
+  return 0;
+  }
