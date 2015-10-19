@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+char beverages;
+cout<<"Beverages\n\n";
+    cout<<"1."<<"\t"<<"Cola\n";
+    cout<<"2."<<"\t"<<"Tea\n";
+    cout<<"3."<<"\t"<<"Coffee\n";
+    cout<<"4."<<"\t"<<"Lemon\n";
+    cout<<"5."<<"\t"<<"Orange juice\n";
+    cout<<"Choose your favorite beverage: ";
+    cin>>beverages;
+if(beverages=='1'){
+   cout<<"\nCola\n";}
+   else if(beverages=='2'){
+   cout<<"\nTea\n";}
+   else if(beverages=='3'){
+   cout<<"\nCoffee\n";}
+   else if(beverages=='4'){
+   cout<<"\nLemon\n";}
+   else if(beverages=='5'){
+   cout<<"\nOrange juice\n";}
+   else cout<<"\nError.choice was not valid, here is your money back.\n";
+   return 0;
+
+}
